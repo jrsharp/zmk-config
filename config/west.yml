@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: jrsharp-zmk
+    - name: jrsharp
       url-base: https://github.com/jrsharp
   projects:
     - name: zmk
-      remote: jrsharp-zmk
-      revision: main
+      remote: jrsharp
+      revision: frst
       import: app/west.yml
   self:
     path: config
