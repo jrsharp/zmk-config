@@ -30,12 +30,12 @@
 // -----------------------------------------------------------------------------------------
 // | FILES |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | PWR   |
 // | CHAT  | TAB | BT1 | BT2 | BT3 | BT4 |   | LFT | DWN |  UP | RGT |  '  | BR_DN |
-// | CAL   |LSHFT|BT_CL|     |     |     |   | HOME| END |PGUP |PGDN | Rsft| LOCK  |
+// | CAL   |LSHFT|BT_CL|     |     | BT5 |   | HOME| PGDN| PGUP| END | Rsft| LOCK  |
 //                     | CTL | GUI | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp C_AL_FILES &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7    &kp N8    &kp N9    &kp N0    &kp K_PWR
    &kp C_AL_CHAT  &kp TAB      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp SQT   &kp C_BRI_DN
-   &kp C_AL_CAL   &kp LSHFT    &bt BT_CLR   &trans       &trans       &trans         &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp RSHFT &kp K_LOCK
+   &kp C_AL_CAL   &kp LSHFT    &bt BT_CLR   &trans       &trans       &bt BT_SEL 4   &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp RSHFT &kp K_LOCK
                   &kp LCTRL    &kp LGUI     &kp SPACE    &kp RET      &trans   &trans
                         >;
                 };
