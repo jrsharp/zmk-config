@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: jrsharp
-      revision: frst
+      revision: frst-w-pointers
       import: app/west.yml
   self:
     path: config
